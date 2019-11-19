@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Hero} from '../hero-interface';
 import { HeroService } from '../hero.service';
-import { Subscriber } from 'rxjs';
 
 @Component({
   selector: 'app-heroes',
